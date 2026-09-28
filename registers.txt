@@ -1,0 +1,106 @@
+# register write sequence; fixed = set in every bitstream
+BSPI#0 fixed 
+CMD#0 fixed 01 04
+TIMER#0 fixed 
+WBSTAR#0 fixed 
+CMD#1 fixed 
+CMD#2 fixed 00 01 02
+FAR#0 fixed 
+RBCRC_SW#0 fixed 
+COR0#0 fixed 27 28 29
+COR1#0 fixed 22
+IDCODE#0 fixed 00 01 04 07 14 17 23 24 25
+CMD#3 fixed 00
+CMD#4 fixed 00
+MASK#0 fixed 00
+CTL0#0 fixed 00 08
+MASK#1 fixed 
+CTL1#0 fixed 
+FAR#1 fixed 
+CMD#5 fixed 
+CMD#6 fixed 
+CMD#7 fixed 
+CMD#8 fixed 00
+CMD#9 fixed 00
+FAR#2 fixed 17 18 19 20 21 23 24 25
+MASK#2 fixed 00 08
+CTL0#1 fixed 00 08
+CMD#10 fixed 
+# unexplained (varying, no option explains them)
+BSPI#0:00 unexplained 17 of 95
+BSPI#0:01 unexplained 17 of 95
+BSPI#0:03 unexplained 15 of 180
+CMD#0:01 unexplained 1 of 215
+CMD#0:04 unexplained 1 of 215
+CMD#10:01 unexplained 3 of 31
+CMD#10:03 unexplained 1 of 76
+CMD#11:03 unexplained 3 of 31
+CMD#2:00 unexplained 1 of 215
+CMD#2:01 unexplained 1 of 215
+CMD#2:02 unexplained 1 of 215
+CMD#3:00 unexplained 1 of 215
+CMD#3:03 unexplained 12 of 95
+CMD#4:00 unexplained 1 of 215
+CMD#5:01 unexplained 12 of 95
+CMD#5:02 unexplained 3 of 31
+CMD#5:03 unexplained 9 of 64
+CMD#6:00 unexplained 9 of 108
+CMD#6:02 unexplained 9 of 108
+CMD#6:03 unexplained 32 of 107
+CMD#6:04 unexplained 9 of 64
+CMD#7:00 unexplained 3 of 171
+CMD#7:01 unexplained 9 of 108
+CMD#7:02 unexplained 32 of 107
+CMD#7:04 unexplained 32 of 107
+CMD#8:00 unexplained 1 of 215
+CMD#8:01 unexplained 32 of 107
+CMD#8:02 unexplained 9 of 108
+CMD#9:00 unexplained 1 of 215
+CMD#9:02 unexplained 3 of 171
+CMD#9:03 unexplained 9 of 64
+COR0#0:00 unexplained 111 of 111
+COR0#0:02 unexplained 121 of 121
+COR0#0:05 unexplained 115 of 115
+COR0#0:06 unexplained 106 of 106
+COR0#0:07 unexplained 135 of 135
+COR0#0:08 unexplained 115 of 115
+COR0#0:09 unexplained 125 of 125
+COR0#0:10 unexplained 134 of 134
+COR0#0:11 unexplained 102 of 102
+COR0#0:12 unexplained 116 of 116
+COR0#0:13 unexplained 4 of 74
+COR0#0:17 unexplained 84 of 84
+COR0#0:18 unexplained 26 of 48
+COR0#0:19 unexplained 102 of 102
+COR0#0:20 unexplained 127 of 127
+COR0#0:21 unexplained 76 of 76
+COR0#0:22 unexplained 83 of 83
+COR0#0:26 unexplained 42 of 42
+COR0#0:27 unexplained 1 of 215
+COR0#0:28 unexplained 1 of 215
+COR0#0:29 unexplained 1 of 215
+COR1#0:22 unexplained 1 of 215
+CTL0#0:00 unexplained 1 of 215
+CTL0#0:08 unexplained 1 of 215
+CTL0#1:00 unexplained 1 of 215
+CTL0#1:08 unexplained 1 of 215
+FAR#2:17 unexplained 1 of 215
+FAR#2:18 unexplained 1 of 215
+FAR#2:19 unexplained 1 of 215
+FAR#2:20 unexplained 1 of 215
+FAR#2:21 unexplained 1 of 215
+FAR#2:23 unexplained 1 of 215
+FAR#2:24 unexplained 1 of 215
+FAR#2:25 unexplained 1 of 215
+IDCODE#0:00 unexplained 1 of 215
+IDCODE#0:01 unexplained 1 of 215
+IDCODE#0:04 unexplained 1 of 215
+IDCODE#0:07 unexplained 1 of 215
+IDCODE#0:14 unexplained 1 of 215
+IDCODE#0:17 unexplained 1 of 215
+IDCODE#0:23 unexplained 1 of 215
+IDCODE#0:24 unexplained 1 of 215
+IDCODE#0:25 unexplained 1 of 215
+MASK#0:00 unexplained 1 of 215
+MASK#2:00 unexplained 1 of 215
+MASK#2:08 unexplained 1 of 215
